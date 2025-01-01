@@ -1,0 +1,29 @@
+body {
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: linear-gradient(to bottom right, #a8c0ff, #3f2b96);
+}
+
+.App {
+  background-color: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  width: 500px;
+  
+}
+h1 {
+  text-align: center;
+}
+.add-task,
+.filter-buttons{
+  display: flex;
+  justify-content: center; /* Centers items horizontally */
+  align-items: center;     /* Centers items vertically (optional) */
+  gap: 10px;              /* Adds space between items (optional) */
+
+  margin-bottom: 20px; /* Example: Add some space below */
+}
